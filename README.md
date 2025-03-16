@@ -35,11 +35,11 @@ We recommend training with ML-Agents' default configuration as follows:
 
 Start with two mini cities, one consisting of only left turns and the other of only right turns.
 
-Train for 750k-1M steps, setting up checkpoints on both the correct and incorrect sides of the road.
+Train for 750k-1M steps, setting up checkpoints on both the correct and incorrect sides of the road, with an object attached to the 'Goal' Script at the end, also add the 'Wall' Script to object that the car might crash with on the road.
 
 Move to a more complex city with both left and right turns for another 750k-1M steps.
 
-Gradually introduce obstacles bit by bit to refine the model’s decision-making.
+Gradually introduce obstacles bit by bit to refine the model’s decision-making and putting 'Extra checkpoint' around them.
 
 ### Ray Perception Setup
 
