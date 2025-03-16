@@ -65,3 +65,5 @@ Rays Per Side: 6-9
 ## License
 This project is open-source under the MIT License.
 
+### For any additional questions, please feel free to send me an email: yaghianthony55@gmail.com
+
