@@ -13,7 +13,6 @@ public class CarAgent : Agent
     //[SerializeField] public Transform target;
     private int checkpointCount = 0;
     // Raycast parameters
-    public float raycastDistance = 10f;
     public LayerMask obstacleLayer;  // Layer to consider for obstacles (e.g., walls, other cars)
     private Rigidbody rb;
     private RayPerceptionSensorComponent3D rayPerceptionSensor;
@@ -27,28 +26,8 @@ public class CarAgent : Agent
 
     public override void OnEpisodeBegin()
     {
-        //transform.localPosition = new Vector3(17.5f, -5.2f, 0f);
-        //transform.rotation = Quaternion.Euler(0, 180, 0);
-
-        /*if (Random.value > 0.5f) // 50% chance
-        {
-            transform.localPosition = new Vector3(17.5f, -5.2f, 0f);
-            transform.rotation = Quaternion.Euler(0, 180, 0);
-        }
-        else
-        {
-            transform.localPosition = new Vector3(-23.5f, -5.2f, -118.5f);
-            transform.rotation = Quaternion.Euler(0, -90, 0);
-        }*/
-
-
-
-        //transform.localPosition = new Vector3(12f, -5.2f, -81f);
-        //transform.rotation = Quaternion.Euler(0, 0, 0);
-
-
-        transform.localPosition = new Vector3(86f, 0f, 20.6f);
-        transform.rotation = Quaternion.Euler(0, 90, 0);
+        transform.localPosition = new Vector3(0f, 0f, 0f);
+        transform.rotation = Quaternion.Euler(0, 0, 0);
 
         //transform.rotation = Quaternion.identity;
         checkpointCount = 0;
