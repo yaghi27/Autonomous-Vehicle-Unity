@@ -41,6 +41,8 @@ Move to a more complex city with both left and right turns for another 750k-1M s
 
 Gradually introduce obstacles bit by bit to refine the model’s decision-making and putting 'Extra checkpoint' around them.
 
+I also recommend the start position of the car be changed along with its rotation during training to prevent overtraining one specific direction or position.
+
 ### Ray Perception Setup
 
 Add Ray Perception 3D to the vehicle in Unity.
